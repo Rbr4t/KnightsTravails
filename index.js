@@ -30,7 +30,7 @@ function generateMoves(positionx, positiony) {
     function checkIfValidMove(move) {
         if(move[0] < 0 || move[1] < 0) {
             return false
-        } else if(move[0] > 8 || move[1] > 8) {
+        } else if(move[0] > 7 || move[1] > 7) {
             return false
         }
         return true
